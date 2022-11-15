@@ -1,0 +1,9 @@
+// 1. Maak een components-map aan in de src folder
+// 2. Maak een JSX bestand aan (met hoofdletter!) volgens de naam van jouw component
+// 3. Schrijf een functie (met hoofdletter! bijv: Buttons.jsx) die HTML-elementen binnen een fragment returnen
+// 4. Schrijf direct de "export regel" voor de functie, zodat je daarna de auto-complete kunt gebruiken
+// 5. Importeren van het component in App.js en geef deze weer als component
+// 6. Plak de originele HTML in het custom component
+// 7. Werkt? Top! Dan kunnen we het component nu dynamisch maken
+// 8. Bekijk welke properties dynamisch moeten zijn en geef deze ook een property-naam mee
+// 9. Zorg dat je de property-namen kunt ontvangen in de functie. Let op: ieder component ontvangt deze properties automatisch!
