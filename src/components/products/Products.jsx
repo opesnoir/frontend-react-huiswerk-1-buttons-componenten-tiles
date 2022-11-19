@@ -17,7 +17,7 @@ function Products({redLabel, imgBag, imgAlt, nameBag, priceBag}) {
             <main>
                 <article className={styles.product}>
                     <span>{redLabel}</span>
-                    <img src={imgBag} alt{imgAlt}/>
+                    <img src={imgBag} alt={imgAlt}/>
                     <p>{nameBag}</p>
                     <h4>€{priceBag},-</h4>
                 </article>

@@ -25,28 +25,28 @@ function App() {
             <Products
                 redLabel="Best seller"
                 imgBag= {bag_1}
-                imgAlt={"image bag"}
+                imgAlt="image bag"
                 nameBag= "The handy bag"
                 priceBag={[400]}
             />
             <Products
                 redLabel="Best seller"
                 imgBag= {bag_1}
-                imgAlt={"image bag"}
+                imgAlt="image bag"
                 nameBag= "The stylish bag"
                 priceBag={[250]}
             />
             <Products
                 redLabel="New collection"
                 imgBag= {bag_1}
-                imgAlt={"image bag"}
+                imgAlt="image bag"
                 nameBag= "The simple bag"
                 priceBag={[300]}
             />
             <Products
                 redLabel="New collection"
                 imgBag= {bag_1}
-                imgAlt={"image bag"}
+                imgAlt="image bag"
                 nameBag= "The trendy bag"
                 priceBag={[150]}
             />
@@ -62,16 +62,16 @@ function App() {
                     tileImage={brand}
                     altTekst="picture of box"
                 />
-
-                <Tiles
-                    tileTitle="Our Story"
-                   tileTekst={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi delectus error illo natus obcaecati reprehenderit, tenetur totam ut veritatis! Eveniet iusto, laborum modi placeat quasi sunt ullam vel? Voluptatibus?"}
-                />
-
                 <Tiles
                     tileImage={ourStory}
                     altTekst="picture of two people"
                 />
+                <Tiles
+                    tileTitle="Our Story"
+                    tileTekst={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi delectus error illo natus obcaecati reprehenderit, tenetur totam ut veritatis! Eveniet iusto, laborum modi placeat quasi sunt ullam vel? Voluptatibus?"}
+                />
+
+
 </span>
 
         </>
