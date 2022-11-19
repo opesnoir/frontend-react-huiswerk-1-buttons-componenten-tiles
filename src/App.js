@@ -25,24 +25,28 @@ function App() {
             <Products
                 redLabel="Best seller"
                 imgBag= {bag_1}
+                imgAlt={"image bag"}
                 nameBag= "The handy bag"
                 priceBag={[400]}
             />
             <Products
                 redLabel="Best seller"
                 imgBag= {bag_1}
+                imgAlt={"image bag"}
                 nameBag= "The stylish bag"
                 priceBag={[250]}
             />
             <Products
                 redLabel="New collection"
                 imgBag= {bag_1}
+                imgAlt={"image bag"}
                 nameBag= "The simple bag"
                 priceBag={[300]}
             />
             <Products
                 redLabel="New collection"
                 imgBag= {bag_1}
+                imgAlt={"image bag"}
                 nameBag= "The trendy bag"
                 priceBag={[150]}
             />
