@@ -1,9 +1,38 @@
+Inhoudsopgave:	Pseudocode maken van componenten
 // 1. Maak een components-map aan in de src folder
 // 2. Maak een JSX bestand aan (met hoofdletter!) volgens de naam van jouw component
-// 3. Schrijf een functie (met hoofdletter! bijv: Buttons.jsx) die HTML-elementen binnen een fragment returnen
+// 3. Schrijf een functie (met hoofdletter!) die HTML-elementen binnen een fragment returnen
 // 4. Schrijf direct de "export regel" voor de functie, zodat je daarna de auto-complete kunt gebruiken
 // 5. Importeren van het component in App.js en geef deze weer als component
 // 6. Plak de originele HTML in het custom component
 // 7. Werkt? Top! Dan kunnen we het component nu dynamisch maken
+// 8. Bekijk welke properties dynamisch moeten zijn en geef deze ook een property-naam mee
+// 9. Zorg dat je de property-namen kunt ontvangen in de functie. Let op: ieder component ontvangt deze properties automatisch!
+
+
+
+A. Componenten opberg folder / map
+// 1. Maak een components-map aan in de src folder
+// 2. Maak een JSX bestand aan volgens de naam van jouw component. De bestandnaam begint met een hoofdletter gevolgd door en het .js kun je vervangen door .jsx.
+//          voorbeeld: src > components > Buttons.jsx en Buttons.module.css
+
+B. Component functie schrijven
+//3 Schrijf de functie die HTML-elementen binnen een fragment returned;
+//4 Schrijf de functie "export regel", die vertelt waar de functie opgehaald moet worden;
+//          voorbeeld: function Buttons(props) {
+                           return (
+                               <></>
+                           );
+                       }
+
+                       export default Buttons;
+// functienaam begint met een hoofdletter bijv: Buttons. Sneltoets functie schrijven: normale functie = rsf > tab arrow functie = rsc > tab
+
+C. Component functie importeren
+// 5. Importeren van het component in App.js en geef deze weer als component
+// 6. Plak de originele HTML in het custom component
+// 7. Werkt? Top! Dan kunnen we het component nu dynamisch maken.
+
+D. Component properties dynamisch maken
 // 8. Bekijk welke properties dynamisch moeten zijn en geef deze ook een property-naam mee
 // 9. Zorg dat je de property-namen kunt ontvangen in de functie. Let op: ieder component ontvangt deze properties automatisch!
